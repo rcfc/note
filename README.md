@@ -33,11 +33,12 @@ Serial.print(); //打印出来不换行
 Serial.println();  // 打印出来 在换行
 参数可以是float 比如11.12  . int  char  这些都是转成string进行打印
 
-print or println 可以这样 Serial.print(i,DEC);   //DEC HEX OCT BIN 分别进行进制转换。  
+print or println 可以这样 Serial.print(i,DEC);   //DEC HEX OCT BIN 分别进行进制转换。
+
 ---
 
 3. 如果涉及到读取的话：
-if( Serial.available() )
+if( Serial.available() ) 
 {
 
 }
